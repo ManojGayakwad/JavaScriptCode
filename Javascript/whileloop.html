@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Loops in JavaScript</title>
+    </head>
+    <body>
+        <div id="tweetes"></div>
+        <script type="text/javascript">
+            var tweetString="";
+            var tweets=["Hello Everyone","Hi Bro","I like Coffee!","night night :)"];
+            var i=0;
+            while(i<tweets.length){
+                tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+                i++;
+            }
+            document.getElementById("tweetes").innerHTML=tweetString;
+        </script>
+    </body>
+</html>

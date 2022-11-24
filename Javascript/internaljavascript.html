@@ -1,0 +1,93 @@
+<!-- <html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <p id="text">Hello world</p>
+        <script type="text/Javascript">
+            // this javascript line comment
+            /* multiline comment
+            */
+            document.getElementById("text").innerHTML= "Hello Manoj" ;
+        </script>
+    </body>
+</html> -->
+
+<!-- Responding To click Program -->
+<!-- <html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <p id="text">Hello world</p>
+        <button id="Change">Change Text</button>
+        <script type="text/Javascript">
+            document.getElementById("Change").onclick= function(){
+                document.getElementById("text").innerHTML="hello Manoj";
+            }
+        </script>
+    </body>
+</html> -->
+<!-- Changing Website Content -->
+<!-- <html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <p id="text">Hello world</p>
+        <button id="Change">Change Text</button>
+        <p id="secondpara">Javascript is ...</p>
+        <button id="append">Append text</button>
+        <p id="emptypara"></p>
+        <button id="createpara">Create text</button>
+        <script type="text/Javascript">
+            document.getElementById("Change").onclick= function(){
+                document.getElementById("text").innerHTML="hello Manoj";
+            }
+            document.getElementById("append").onclick= function(){
+                document.getElementById("secondpara").innerHTML ="I think " + document.getElementById("secondpara").innerHTML + "awesome!";
+            }
+            document.getElementById("createpara").onclick= function(){
+                document.getElementById("emptypara").innerHTML="<h1>hi Bro here i am </h1>";                
+            }
+
+
+
+        </script>
+    </body>
+</html> -->
+<!-- Manipulating styles with javascrip -->
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <p id="text">Hello world</p>
+        <button id="Change">Change Text</button>
+        <p id="secondpara">Javascript is ...</p>
+        <button id="append">Append text</button>
+        <p id="emptypara"></p>
+        <button id="createpara">Create text</button>
+
+        <p id="moretext">This is some text</p>
+        <button id="styletext">Style text</button>
+
+        <script type="text/Javascript">
+            document.getElementById("Change").onclick= function(){
+                document.getElementById("text").innerHTML="hello Manoj";
+            }
+            document.getElementById("append").onclick= function(){
+                document.getElementById("secondpara").innerHTML ="I think " + document.getElementById("secondpara").innerHTML + "awesome!";
+            }
+            document.getElementById("createpara").onclick= function(){
+                document.getElementById("emptypara").innerHTML="<h1>hi Bro here i am </h1>";                
+            }
+            document.getElementById("styletext").onclick= function(){
+                document.getElementById("moretext").style.display="none";                
+            }
+
+
+
+        </script>
+    </body>
+</html>

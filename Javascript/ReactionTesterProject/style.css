@@ -1,0 +1,20 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#shapes {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none;
+    position: relative;
+    /* border: 2px solid chocolate; */
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
